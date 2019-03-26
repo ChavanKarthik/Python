@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cbeab56-7fc7-4e01-abde-ab99c8e43671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pandas/read_excel_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prime_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary_maker.py" afterDir="false" />
-    </list>
+    <list default="true" id="5cbeab56-7fc7-4e01-abde-ab99c8e43671" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class_objects01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="494">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -278,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553249969942</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="default cookie cutter added">
+      <created>1553619775091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553619775091</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -292,7 +293,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1293" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +315,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing commit and push functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing commit and push functionality" />
+    <MESSAGE value="default cookie cutter added" />
+    <option name="LAST_COMMIT_MESSAGE" value="default cookie cutter added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class_objects01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
