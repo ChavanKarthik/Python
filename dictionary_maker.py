@@ -3,10 +3,14 @@ x = ['20931', 'DHARARI KUND', '417', 'GANGOLIHAT', '605', 'PITHORAGARH', '33', '
 def dictionary_maker(x):
 	dicter = {}
 	for index, item in enumerate(x):
-		if index%2==0:
-			dicter[item] = 0
+		if len(x)%2==0:
+			if index%2==0:
+				dicter[item] = 0
+			else:
+				dicter[x[index-1]] = item
 		else:
-			dicter[x[index-1]] = item
+			print('Number of elements is not correct')
+			break
 
 	return dicter
 
@@ -38,5 +42,5 @@ def dictionary_maker2(x):
 	return dicter
 
 print(dictionary_maker(x))		
-print(dictionary_maker3(x))
-print(dictionary_maker2(x))
+#print(dictionary_maker3(x))
+#print(dictionary_maker2(x))
