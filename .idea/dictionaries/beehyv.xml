@@ -1,7 +1,15 @@
 <component name="ProjectDictionaryState">
   <dictionary name="beehyv">
     <words>
+      <w>crosstab</w>
+      <w>dataframe</w>
+      <w>doctype</w>
+      <w>fillna</w>
+      <w>groupby</w>
+      <w>iloc</w>
+      <w>medean</w>
       <w>motech</w>
+      <w>pclass</w>
     </words>
   </dictionary>
 </component>
