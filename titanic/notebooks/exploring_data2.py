@@ -4,6 +4,7 @@ import os
 import matplotlib.pyplot as plt
 
 # set path for data files
+
 raw_data_path = os.path.join(os.path.pardir, 'data', 'raw')
 train_data_file_path = os.path.join(raw_data_path, 'train.csv')
 test_data_file_path = os.path.join(raw_data_path, 'test.csv')
@@ -17,17 +18,20 @@ test_df['Survived'] = -123
 
 # to club two df data into one
 df = pd.concat((train_df, test_df), axis=0)
+# print(df.info())
 
-# group by sex and then find median in each category
+# to plot a histogram with 100 buckets in age column
+# df.Age.plot(kind='hist', title='Histogram for Age column', color='g', bins=30)
+# plt.show()
+
+# to plot a KDE(Kernel distribution ) with 100 buckets in age column
+# df.Age.plot(kind='kde', title='Kernel density for Age column', color='c')
+# plt.show()
+
+# print(df.Age.skew())  # to get skewness of age
+
+# to get a graph to find proportionality
+# df.plot.scatter(x='Pclass', y='Fare', color='c', title='Bi-variate plot', alpha='0.2')
+# plt.show()
+
 # print(df.groupby(['Sex']).Age.median())
-
-# group by P_class and find median of age and fare
-# print(df.groupby(['Pclass'])['Age', 'Fare'].median())
-
-# diff aggregate function on multiple columns with
-# print(df.groupby('Pclass').agg({'Age': 'mean', 'Fare': 'median'}))
-
-
-# print(df.groupby(['Pclass', 'Sex']).Age.median())
-
-
