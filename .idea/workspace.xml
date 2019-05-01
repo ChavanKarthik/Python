@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbeab56-7fc7-4e01-abde-ab99c8e43671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plural_sight/extract_data_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plural_sight/extract_data_mysql_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plural_sight/statistic_basic_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plural_sight/statistic_basic_functions2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plural_sight/web_scraping" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/notebooks/cross-tabs_pivot-tables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/notebooks/data_munging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/models/logistic_regression.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/titanic/notebooks/exploring_data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/titanic/notebooks/exploring_data2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/titanic/notebooks/feature_engineering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/notebooks/missing_values_imputation&amp;Feature_engg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/notebooks/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/src/data/get_processed_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/src/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/src/data/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/beehyv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/beehyv.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/read_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/read_excel_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/sample_csv1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/sample_excel.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plural_sight/extract_data_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plural_sight/extract_data_mysql_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plural_sight/statistic_basic_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plural_sight/statistic_basic_functions2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plural_sight/web_scraping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,32 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/titanic/notebooks/feature_engineering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titanic/data/raw/test.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="7" selection-end-column="11" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +47,8 @@
     <findStrings>
       <find>nums</find>
       <find>wher</find>
+      <find>C</find>
+      <find>C</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,12 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/file_handling.py" />
-        <option value="$PROJECT_DIR$/sort.py" />
-        <option value="$PROJECT_DIR$/connect_database.py" />
-        <option value="$PROJECT_DIR$/../python_Basics/Pandas/environment_setup.py" />
-        <option value="$PROJECT_DIR$/Pandas/sample_csv1.csv" />
-        <option value="$PROJECT_DIR$/Pandas/environment_setup.py" />
         <option value="$PROJECT_DIR$/Pandas/read_csv.py" />
         <option value="$PROJECT_DIR$/Pandas/read_excel_file.py" />
         <option value="$PROJECT_DIR$/prime_number.py" />
@@ -91,11 +72,45 @@
         <option value="$PROJECT_DIR$/plural_sight/statistic_basic_functions.py" />
         <option value="$PROJECT_DIR$/plural_sight/statistic_basic_functions2.py" />
         <option value="$PROJECT_DIR$/titanic/notebooks/exploring_data.py" />
-        <option value="$PROJECT_DIR$/titanic/notebooks/exploring_data2.py" />
-        <option value="$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py" />
         <option value="$PROJECT_DIR$/titanic/notebooks/cross-tabs_pivot-tables.py" />
         <option value="$PROJECT_DIR$/titanic/notebooks/data_munging.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py" />
         <option value="$PROJECT_DIR$/titanic/notebooks/feature_engineering.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/visualization.py" />
+        <option value="$PROJECT_DIR$/python_basics/Method_Overriding01.py" />
+        <option value="$PROJECT_DIR$/python_basics/practice1.py" />
+        <option value="$PROJECT_DIR$/python_basics/class_objects.py" />
+        <option value="$PROJECT_DIR$/python_basics/questions.py" />
+        <option value="$PROJECT_DIR$/python_basics/questions01.py" />
+        <option value="$PROJECT_DIR$/python_basics/Predict.py" />
+        <option value="$PROJECT_DIR$/python_basics/binary_number_check.py" />
+        <option value="$PROJECT_DIR$/python_basics/class_objects01.py" />
+        <option value="$PROJECT_DIR$/python_basics/connect_database.py" />
+        <option value="$PROJECT_DIR$/python_basics/custom_modules.py" />
+        <option value="$PROJECT_DIR$/python_basics/dictionary_maker.py" />
+        <option value="$PROJECT_DIR$/python_basics/decorators.py" />
+        <option value="$PROJECT_DIR$/python_basics/duck_typing.py" />
+        <option value="$PROJECT_DIR$/python_basics/exceptions.py" />
+        <option value="$PROJECT_DIR$/python_basics/factorial.py" />
+        <option value="$PROJECT_DIR$/python_basics/file_handling.py" />
+        <option value="$PROJECT_DIR$/python_basics/file_write.py" />
+        <option value="$PROJECT_DIR$/python_basics/for(for).py" />
+        <option value="$PROJECT_DIR$/python_basics/file_openRead.py" />
+        <option value="$PROJECT_DIR$/python_basics/sample1.txt" />
+        <option value="$PROJECT_DIR$/python_basics/Recursive_Function.py" />
+        <option value="$PROJECT_DIR$/python_basics/retry.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/exploring_data3.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/detecting_treating_outliers.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/missing_values_imputation.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/missing_values_imputation&amp;Feature_engg.py" />
+        <option value="$PROJECT_DIR$/python_basics/prime_number.py" />
+        <option value="$PROJECT_DIR$/titanic/src/data/get_processed_data.py" />
+        <option value="$PROJECT_DIR$/titanic/data/get_processed_data.py" />
+        <option value="$PROJECT_DIR$/titanic/data/get_processed_data_cc.py" />
+        <option value="$PROJECT_DIR$/titanic/notebooks/exploring_data2.py" />
+        <option value="$PROJECT_DIR$/titanic/models/baseline.py" />
+        <option value="$PROJECT_DIR$/titanic_challenge/models/logistic_regression.py" />
+        <option value="$PROJECT_DIR$/titanic/models/logistic_regression.py" />
       </list>
     </option>
   </component>
@@ -113,37 +128,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python_Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="titanic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="titanic" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/src/data" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/titanic/data/submission" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/titanic/src/data" />
+      <recent name="$PROJECT_DIR$/titanic/data" />
       <recent name="$PROJECT_DIR$/titanic/notebooks" />
       <recent name="$PROJECT_DIR$/plural_sight" />
     </key>
@@ -160,8 +160,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.feature_engineering">
-    <configuration name="cross-tabs_pivot-tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.logistic_regression">
+    <configuration name="baseline" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,32 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/notebooks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/notebooks/cross-tabs_pivot-tables.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data_munging" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_Basics" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/notebooks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/notebooks/data_munging.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/models/logistic_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="feature_engineering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_processed_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +211,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/notebooks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/notebooks/feature_engineering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/data/get_processed_data_cc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="grouping_aggregations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,11 +232,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/notebooks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic_survival_challenge/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic_survival_challenge/models/logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_Basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic_survival_challenge/notebooks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic_survival_challenge/notebooks/visualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,10 +268,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.feature_engineering" />
-        <item itemvalue="Python.data_munging" />
-        <item itemvalue="Python.cross-tabs_pivot-tables" />
-        <item itemvalue="Python.grouping_aggregations" />
+        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.visualization" />
+        <item itemvalue="Python.baseline" />
+        <item itemvalue="Python.get_processed_data (1)" />
         <item itemvalue="Python.exploring_data2" />
       </list>
     </recent_temporary>
@@ -350,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553620485291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="data exploring, Pivot Tables, Aggregate functions and data munging">
+      <created>1553796432203</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553796432203</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -364,15 +371,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1293" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21321794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.55250406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990307" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27948305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58804524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956383" />
@@ -389,7 +395,8 @@
     <MESSAGE value="Testing commit and push functionality" />
     <MESSAGE value="default cookie cutter added" />
     <MESSAGE value="adding all python practice files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding all python practice files" />
+    <MESSAGE value="data exploring, Pivot Tables, Aggregate functions and data munging" />
+    <option name="LAST_COMMIT_MESSAGE" value="data exploring, Pivot Tables, Aggregate functions and data munging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,155 +409,221 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>raw_data_path</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="869" column="8" selection-start-line="869" selection-start-column="8" selection-end-line="869" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2224" column="43" selection-start-line="2224" selection-start-column="43" selection-end-line="2224" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_handling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/sample_csv1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/read_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/read_excel_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prime_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plural_sight/Titanic.py">
+    <entry file="file://$PROJECT_DIR$/python_basics/Lists.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_objects01.py">
+    <entry file="file://$PROJECT_DIR$/python_basics/Method_Overriding01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/practice1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/questions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/binary_number_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/questions01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/class_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/class_objects01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_basics/connect_database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="114">
+          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plural_sight/extract_data_mysql_db.py">
+    <entry file="file://$PROJECT_DIR$/python_basics/custom_modules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="134">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plural_sight/extract_data_api.py">
+    <entry file="file://$PROJECT_DIR$/python_basics/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plural_sight/web_scraping">
+    <entry file="file://$PROJECT_DIR$/python_basics/dictionary_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/duck_typing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/file_handling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/file_write.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/Apache Spark syllabus">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/sample1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/file_openRead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/for(for).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/Recursive_Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/retry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/notebooks/feature_engineering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/.env">
+    <entry file="file://$PROJECT_DIR$/titanic/notebooks/detecting_treating_outliers.py" />
+    <entry file="file://$PROJECT_DIR$/titanic/data/processed/train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/notebooks/data_munging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_objects.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plural_sight/statistic_basic_functions2.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="1444">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plural_sight/statistic_basic_functions.py">
+    <entry file="file:///usr/lib/python3.6/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="153">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/notebooks/exploring_data2.py">
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/notebooks/missing_values_imputation&amp;Feature_engg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -558,72 +631,158 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/titanic/data/raw/train.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="79" selection-start-column="71" selection-end-column="79" />
-        </state>
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="20" selection-start-column="12" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/notebooks/grouping_aggregations.py">
+    <entry file="file://$PROJECT_DIR$/titanic/src/data/train.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/src/data/test.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basics/prime_number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="722">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/src/data/get_processed_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/src/data/make_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/data/processed/test.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/notebooks/exploring_data2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/notebooks/cross-tabs_pivot-tables.py">
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/linear_model/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="131">
+          <caret line="425" column="8" selection-start-line="425" selection-start-column="8" selection-end-line="425" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/notebooks/exploring_data.py">
+    <entry file="file://$PROJECT_DIR$/python_basics/Predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/data/get_processed_data_cc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/models/predictions1.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/models/predictions2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/titanic/data/raw/test.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="7" selection-end-column="11" />
-        </state>
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/notebooks/data_munging.py">
+    <entry file="file://$PROJECT_DIR$/titanic/data/submission/prediction.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="455">
+          <caret line="419" lean-forward="true" selection-start-line="419" selection-end-line="419" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/model_selection/_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="46" lean-forward="true" selection-start-line="5" selection-end-line="46" />
+        <state relative-caret-position="-464">
+          <caret line="476" column="8" selection-start-line="476" selection-start-column="8" selection-end-line="476" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plural_sight/web_scraping">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic/models/logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titanic_survival_challenge/notebooks/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titanic/notebooks/feature_engineering.py">
+    <entry file="file://$PROJECT_DIR$/titanic_survival_challenge/models/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
