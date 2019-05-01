@@ -96,9 +96,5 @@ clf = GridSearchCV(model_lr1, param_grid=parameters, cv=3)
 
 clf.fit(X_train, y_train)
 # print(clf.best_score_)
-predictions2 = clf.predict(test_df)
-
-
-
-
+# predictions2 = clf.predict(test_df)
 
