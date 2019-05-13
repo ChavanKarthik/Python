@@ -2,6 +2,7 @@
   <dictionary name="beehyv">
     <words>
       <w>asdf</w>
+      <w>bigrams</w>
       <w>boxplot</w>
       <w>crosstab</w>
       <w>dataframe</w>
@@ -16,16 +17,20 @@
       <w>iloc</w>
       <w>jonkheer</w>
       <w>kund</w>
+      <w>lxml</w>
       <w>medean</w>
       <w>motech</w>
       <w>mycursor</w>
       <w>mydb</w>
       <w>myeditor</w>
+      <w>nltk</w>
       <w>pclass</w>
       <w>pithoragarh</w>
       <w>sklearn</w>
       <w>skoda</w>
+      <w>synsets</w>
       <w>uttarakhand</w>
+      <w>webpage</w>
       <w>xlabel</w>
       <w>ylabel</w>
     </words>
