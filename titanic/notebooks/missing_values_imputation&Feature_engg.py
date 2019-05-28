@@ -142,3 +142,5 @@ df.loc[df.Survived == -123, columns].to_csv(write_test_path)
 
 # print(df.info())
 # print(df.head())
+print(df.describe())
+

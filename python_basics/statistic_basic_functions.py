@@ -3,6 +3,8 @@ import random
 # list of random numbers
 # x = random.sample(range(1, 1000), 15)
 x = [370, 877, 575, 11, 895, 377, 574, 88, 800, 825, 222, 411, 396, 885, 857, 633]
+
+
 # print(x)
 
 
@@ -28,12 +30,12 @@ def average(x):
 # To find median
 def median(x):
     x = sorted(x)
-    if len(x) % 2!=0:
+    if len(x) % 2 != 0:
         medean = x[(len(x)) // 2]
     else:
-        m = int(((len(x))/2) + 0.5)
-        n = int(((len(x))/2) - 0.5)
-        medean = (x[m] + x[n])/2
+        m = int(((len(x)) / 2) + 0.5)
+        n = int(((len(x)) / 2) - 0.5)
+        medean = (x[m] + x[n]) / 2
     return medean
 
 
@@ -46,6 +48,3 @@ def range1(x):
     return range1
 
 # print(range1(x))
-
-
-

@@ -2,8 +2,7 @@ import math
 
 
 def prime_check(x):
-
-    if (x%2 == 0):
+    if x % 2 == 0:
         print(f"{x} is a not prime number(even number)")
         return
 
@@ -14,19 +13,24 @@ def prime_check(x):
 
     print(f"{x} is a prime number")
 
+
 prime_check(22)
+
 
 def factorial(y):
     for i in range(1, y):
-        y = y*i
+        y = y * i
     print(f"factorial of given number is {y}")
+
 
 factorial(5)
 
 x = int(input('please the number to get the table \n'))
 
+
 def multiplier(x):
     for i in range(1, 11):
-        print(f'{x}X{i}={x*i}')
+        print(f'{x}X{i}={x * i}')
+
 
 multiplier(x)

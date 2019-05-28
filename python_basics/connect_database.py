@@ -8,3 +8,4 @@ mycursor.execute("select * from wash_states limit 1;")  # To pass quires to run
 
 for i in mycursor:
 	print('data in wash_states table', i)
+
