@@ -1,7 +1,25 @@
+# importing the necessary packages
 import pandas as pd
 import os
+import pandas_profiling
 
 os.chdir("/home/beehyv/Downloads/python/python_basics")
+
+
+def main():
+    # my code for profiling
+    df = pd.read_csv('/home/beehyv/Downloads/python/titanic/data/raw/test.csv')
+    profile = pandas_profiling.ProfileReport(df)
+    profile.to_file("titanic_data_profile.html")
+
+
+if __name__ == "__main__":
+    main()
+
+
+# pandas_profiling.ProfileReport(df)
+# print(df.profile_report())
+
 data = pd.read_csv("sample_csv1.csv")  # Get data in a object
 # print(data) # To print whole data
 # print(data.head(2)) # To return top n (5 by default) rows of a data frame

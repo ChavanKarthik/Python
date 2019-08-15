@@ -1,10 +1,10 @@
-starting_number = int(input("please enter Starting number :"))
+# starting_number = int(input("please enter Starting number :"))
 ending_number = int(input("please enter Ending number :"))
-list1 = [x for x in (range(starting_number, ending_number+1))]
+list1 = [x for x in (range(0, ending_number + 1))]
 
 
 def eliminate_Numbers(list2, skip=True):
-    new_list = []   # get the iterated list
+    new_list = []  # get the iterated list
     if len(list2) == 1:  # stop when single stop is left
         print(list2[0])
     else:
@@ -16,4 +16,4 @@ def eliminate_Numbers(list2, skip=True):
         eliminate_Numbers(new_list, skip)  # recursion
 
 
-eliminate_Numbers(list1)
+# eliminate_Numbers(list1)

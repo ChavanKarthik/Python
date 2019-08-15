@@ -2,6 +2,7 @@
   <dictionary name="beehyv">
     <words>
       <w>asdf</w>
+      <w>beesheets</w>
       <w>bigrams</w>
       <w>boxplot</w>
       <w>crosstab</w>
@@ -26,6 +27,7 @@
       <w>nltk</w>
       <w>pclass</w>
       <w>pithoragarh</w>
+      <w>rangoli</w>
       <w>sklearn</w>
       <w>skoda</w>
       <w>synsets</w>

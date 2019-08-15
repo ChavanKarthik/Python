@@ -9,11 +9,10 @@ def find_state(pos):
     pos[4] = 1
     pos[5] = 1
     pos[6] = 1
-    pos[7] = 0
-    pos[8] = 0
 
     # find winner for other positions
-    for i in range(9, max_value + 1):
+    for i in range(7, max_value + 1):
+        # if not (pos[i - 2] or (pos[i - 3]) or pos[i - 5]):
         if not (pos[i - 2]) or not (pos[i - 3]) or not (pos[i - 5]):
             pos[i] = 1
         else:

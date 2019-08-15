@@ -15,6 +15,7 @@ test_df = pd.read_csv(test_file_path, index_col='PassengerId')
 # Data Preparation
 X = train_df.loc[:, 'Age':].as_matrix().astype('float')
 y = train_df['Survived'].ravel()
+print(y)
 
 from sklearn.model_selection import train_test_split
 

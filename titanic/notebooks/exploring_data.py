@@ -23,7 +23,7 @@ test_df = pd.read_csv(test_data_file_path, index_col='PassengerId')
 test_df['Survived'] = -123
 
 # to club two df data into one
-df = pd.concat((train_df, test_df), axis=0)
+df = pd.concat((train_df, test_df), axis=0, sort=False)
 # print(df.info())
 
 # to get first 5 rows with headers
@@ -35,6 +35,17 @@ df = pd.concat((train_df, test_df), axis=0)
 # to get specific columns data with primary key
 # print(df[['Name']])
 # print(df.Name)
+
+# To return distinct values
+# print(df.drop_duplicates(subset=['Sex', 'Age']))
+
+# print(df.groupby(['Sex', 'Survived']).count())
+
+# To return not null values
+# print(df[df.Cabin.notnull()])
+
+# To return null values
+# print(df[df.Cabin.isnull()])
 
 # label based indexing :
 # to get records from 6 to 9 all columns
