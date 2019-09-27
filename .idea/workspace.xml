@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbeab56-7fc7-4e01-abde-ab99c8e43671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loan_defaulter_prediction/rough.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auto_test_tool/requirement.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking_behavioral_scorecard/DataSet/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banking_behavioral_scorecard/data_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basics/palandrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Time_predictor/time_predictor_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Time_predictor/time_predictor_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan_defaulter_prediction/explore_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/loan_defaulter_prediction/explore_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_test_tool/auto_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_test_tool/auto_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_test_tool/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_test_tool/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan_defaulter_prediction/explore_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/loan_defaulter_prediction/loan_defaulter_prediction_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +26,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode />
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OYIbxnLUUBBhtLoFKZDKFYpBoH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,20 +41,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/loan_defaulter_prediction" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Selenium" />
-      <recent name="$PROJECT_DIR$/titanic/data/submission" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/loan_defaulter_prediction" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/python_basics" />
       <recent name="$PROJECT_DIR$/titanic/src/data" />
       <recent name="$PROJECT_DIR$/titanic/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PDF_data_Extraction/requirements" />
+      <recent name="$PROJECT_DIR$/Selenium" />
+      <recent name="$PROJECT_DIR$/titanic/data/submission" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,8 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.explore_data">
-    <configuration name="exploration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.testing">
+    <configuration name="auto_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Time_predictor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_test_tool" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Time_predictor/time_predictor_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_test_tool/auto_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="explore_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loan_defaulter_prediction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Banking_behavioral_scorecard" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loan_defaulter_prediction/explore_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Banking_behavioral_scorecard/data_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exploring_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_bookmark" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/notebooks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/notebooks/exploring_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_bookmark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,28 +134,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="palandrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Time_predictor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Time_predictor/get_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basics/palandrome.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loan_defaulter_prediction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Banking_behavioral_scorecard/DataSet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loan_defaulter_prediction/rough.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Banking_behavioral_scorecard/DataSet/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.explore_data" />
-        <item itemvalue="Python.rough" />
-        <item itemvalue="Python.exploration" />
-        <item itemvalue="Python.get_data" />
-        <item itemvalue="Python.exploring_data" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.data_analysis" />
+        <item itemvalue="Python.palandrome" />
+        <item itemvalue="Python.get_bookmark" />
+        <item itemvalue="Python.auto_test" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565883120057</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Loan defaulter prediction model">
+      <created>1566640403756</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566640403756</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixes in Loan defaulter prediction model and corrections in test data">
+      <created>1566647180070</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1566647180070</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -319,6 +338,9 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -343,7 +365,9 @@
     <MESSAGE value="added NLP basics, and auto-summarizing machine learning model." />
     <MESSAGE value="Refactored existing programs and added new tricky programs" />
     <MESSAGE value="Time predictor base model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time predictor base model" />
+    <MESSAGE value="Loan defaulter prediction model" />
+    <MESSAGE value="fixes in Loan defaulter prediction model and corrections in test data" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes in Loan defaulter prediction model and corrections in test data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
